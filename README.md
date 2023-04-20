@@ -10,7 +10,7 @@ For the visuals, we used RunwayML's Gen-1 video diffusion model to generate a fu
 This project was made during the module COMPP by Guillaume Massol at Lucern University of Applied Sciences and Arts.
 
 ## The Model
-We used HarmonAI's Dance Diffusion model, specifically the pretrained checkpoint "jmann-small-190k".
+We used HarmonAI's Dance Diffusion model, specifically the pretrained checkpoints "maestro-150k" and "jmann-small-190k".
 
 ## The Notebooks
 There are two colab notebooks by HarmonAI for their Diffusion model, one to generate audio, and another one to finetune their models.
@@ -31,4 +31,7 @@ After some training, we realised that this playlist was not suited for out proje
 [Chill Drive Lofi Hip Hop Mix by "chilli music" ](https://www.youtube.com/watch?v=nvwYWQ3Nt9g)
 
 # The Process
+As mentioned above, the project consisted of two runs.
 
+## The first run
+The first, and failed run, using the playlist by "the bootleg boy", started from the pretrained checkpoint "maestro-150k". The dataset included over 800 songs, each around 2.5 minutes long; therefore consisting of roughly 35hrs of music.

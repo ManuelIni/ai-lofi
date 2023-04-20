@@ -24,3 +24,11 @@ We worked with two different datasets in the course of our project:
 
 For the first run, we used this playlist on youtube:
 
+[Lofi Hip Hop by "the bootleg boy"](https://www.youtube.com/playlist?list=PLOzDu-MXXLliO9fBNZOQTBDddoA3FzZUo)
+
+After some training, we realised that this playlist was not suited for out project, thus switching to this collection of Lofi beats:
+
+[Chill Drive Lofi Hip Hop Mix by "chilli music" ](https://www.youtube.com/watch?v=nvwYWQ3Nt9g)
+
+# The Process
+

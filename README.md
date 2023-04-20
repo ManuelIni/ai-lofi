@@ -34,4 +34,6 @@ After some training, we realised that this playlist was not suited for out proje
 As mentioned above, the project consisted of two runs.
 
 ## The first run
-The first, and failed run, using the playlist by "the bootleg boy", started from the pretrained checkpoint "maestro-150k". The dataset included over 800 songs, each around 2.5 minutes long; therefore consisting of roughly 35hrs of music.
+The first, and failed run, using the playlist by "the bootleg boy", started from the pretrained checkpoint "maestro-150k".
+
+The dataset included over 800 songs, each around 2.5 minutes long; therefore consisting of roughly 35hrs of music.

@@ -38,4 +38,6 @@ The first, using the playlist by "the bootleg boy", started from the pretrained 
 
 The dataset included over 800 songs, each around 2.5 minutes long; therefore consisting of roughly 35hrs of music.
 
-We finetuned the model for a total of 5400 steps
+We finetuned the model for a total of 5400 steps.
+
+![Demo](demo/demo.gif)

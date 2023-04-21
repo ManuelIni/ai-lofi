@@ -40,4 +40,7 @@ The dataset included over 800 songs, each around 2.5 minutes long; therefore con
 
 We finetuned the model for a total of 5400 steps.
 
-![150031](audio/run_1/150031.wav)
+The first few generations were rather underwhelming - the model generated nothing but white noise.
+
+https://user-images.githubusercontent.com/113027541/233573320-8c1ca27e-48c6-4c42-876d-871ebf0bf215.mp4
+

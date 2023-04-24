@@ -59,6 +59,11 @@ After 5400 steps in total, we decided to abort training on this dataset. The sty
 https://user-images.githubusercontent.com/113027541/233952930-d2ae7ff4-7954-4fd4-8960-90a07a093c89.mp4
 
 ## The second run
+The second run, using the playlist by "chilli music", started from the checkpoint "jmann-small-190k". This dataset is smaller than the first, consisting of roughly 12hrs of Lofi. The training ran for roughly 8500 steps, producing much better results than the first run. There two main reasons for this:
 
+1. The smaller size of the dataset allowed us to do better preprocessing. We adjusted the sample rate of the training data to 48'000 to match the pretrained model. On top of that, we were able to chunk the audio into smaller samples for training. 
 
+2. The dataset is more consistent in it's style. There are no tracks that include vocals or any other uncharacteristic sounds.
+
+https://user-images.githubusercontent.com/113027541/233964821-c90b8cbe-bcfd-4088-b54b-35bd4d3a76f9.mp4
 

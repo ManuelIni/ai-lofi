@@ -59,7 +59,7 @@ After 5400 steps in total, we decided to abort training on this dataset. The sty
 https://user-images.githubusercontent.com/113027541/233952930-d2ae7ff4-7954-4fd4-8960-90a07a093c89.mp4
 
 ## The second run
-The second run, using the playlist by "chilli music", started from the checkpoint "jmann-small-190k". This dataset is smaller than the first, consisting of roughly 12hrs of Lofi. The training ran for roughly 8500 steps, producing much better results than the first run. There two main reasons for this:
+The second run, using the playlist by "chilli music", started from the checkpoint "jmann-small-190k". This dataset is smaller than the first, consisting of roughly 12hrs of Lofi. The training ran for roughly 8500 steps, producing much better results than the first run. There are two main reasons for this:
 
 1. The smaller size of the dataset allowed us to do better preprocessing. We adjusted the sample rate of the training data to 48'000 to match the pretrained model. On top of that, we were able to chunk the audio into smaller samples for training. 
 
@@ -80,5 +80,3 @@ Shortly after 6000 steps, the generated audio didn't seem to get any better. The
 ![run2_a](https://user-images.githubusercontent.com/113027541/233996955-dc236b99-f0fc-4048-ba79-e4d3a56fa9c0.png)
 
 After a few unsuccessful retries from older checkpoints, we decided to stop training. Even though a few runs managed to keep the loss low (green), the output did not sound much better than at 6000 steps.
-
-

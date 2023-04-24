@@ -54,7 +54,11 @@ Despite the faulty dataset, we continued training. 1000 steps later, the voices 
 
 https://user-images.githubusercontent.com/113027541/233939815-e474c13c-f302-4fb4-8fc1-cae29f821ed5.mp4
 
+After 5400 steps in total, we decided to abort training on this dataset. The stylistic inconsistency of the used playlist lead to incoherent outputs that seemed to far away from actual Lofi.
 
+https://user-images.githubusercontent.com/113027541/233952930-d2ae7ff4-7954-4fd4-8960-90a07a093c89.mp4
+
+## The second run
 
 
 

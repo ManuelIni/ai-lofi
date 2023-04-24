@@ -67,3 +67,18 @@ The second run, using the playlist by "chilli music", started from the checkpoin
 
 https://user-images.githubusercontent.com/113027541/233964821-c90b8cbe-bcfd-4088-b54b-35bd4d3a76f9.mp4
 
+The outputs of this run were much more clear and consistent from the beginning.
+
+https://user-images.githubusercontent.com/113027541/233989856-ef00e1d2-a14d-46d3-9367-dedf85cc78f5.mp4
+
+After 5000 steps, the characteristic elements of Lofi started to take over.
+
+https://user-images.githubusercontent.com/113027541/233992029-10f87356-52e9-4e11-aef8-48f625991289.mp4
+
+Shortly after 6000 steps, the generated audio didn't seem to get any better. The graph below shows that the training loss increased greatly after the 196k mark (red).
+
+![run2_a](https://user-images.githubusercontent.com/113027541/233996955-dc236b99-f0fc-4048-ba79-e4d3a56fa9c0.png)
+
+After a few unsuccessful retries from older checkpoints, we decided to stop training. Even though a few runs managed to keep the loss low (green), the output did not sound much better than at 6000 steps.
+
+

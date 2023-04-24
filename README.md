@@ -35,12 +35,26 @@ As mentioned above, the project consisted of two runs.
 
 ## The first run
 The first, using the playlist by "the bootleg boy", started from the pretrained checkpoint "maestro-150k".
-
 The dataset included over 800 songs, each around 2.5 minutes long; therefore consisting of roughly 35hrs of music.
-
 We finetuned the model for a total of 5400 steps.
 
 The first few generations were rather underwhelming - the model generated nothing but white noise.
 
-https://user-images.githubusercontent.com/113027541/233573320-8c1ca27e-48c6-4c42-876d-871ebf0bf215.mp4
+https://user-images.githubusercontent.com/113027541/233935835-b3dcb6d0-c63f-4360-9999-4f0a3d70f9bd.mp4
+
+But soon enough, we were able to discern a structure in the generated samples.
+
+https://user-images.githubusercontent.com/113027541/233936450-1cb6a60d-567d-46ec-b68c-38ba360ba4cf.mp4
+
+After a while, we realised that our dataset was a rather loose interpretation of Lofi. It included songs with vocals and other uncharacteristic elements, which consequently appeared in our generated audio.
+
+https://user-images.githubusercontent.com/113027541/233938417-fc0af1d8-7c2e-4c11-9ed8-3395de7a4ca0.mp4
+
+Despite the faulty dataset, we continued training. 1000 steps later, the voices became even more prominent.
+
+https://user-images.githubusercontent.com/113027541/233939815-e474c13c-f302-4fb4-8fc1-cae29f821ed5.mp4
+
+
+
+
 

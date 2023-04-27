@@ -1,7 +1,7 @@
 # ai-lofi
 AI-generated LoFi by Hannes Salzmann and Manuel Ineichen
 
-This project is an AI-generated hommage to the musical genre of LoFi. On this website, the user is invited to "relax" to soothing LoFi-beats, produced by an audio Diffusion model.
+This project is an AI-generated hommage to the musical genre of Lofi. On this website, the user is invited to "relax" to soothing Lofi-beats, produced by an audio Diffusion model.
 
 [ai-lofi.netlify.app](link)
 

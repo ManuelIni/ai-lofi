@@ -15,9 +15,13 @@ We used [HarmonAI's](https://www.harmonai.org) Dance Diffusion model, specifical
 ## The Notebooks
 There are two colab notebooks by HarmonAI for their Diffusion model, one to generate audio, and another one to finetune their models.
 
-To generate audio: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harmonai-org/sample-generator/blob/main/Dance_Diffusion.ipynb)
+To generate audio:
 
-To finetune:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harmonai-org/sample-generator/blob/main/Finetune_Dance_Diffusion.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harmonai-org/sample-generator/blob/main/Dance_Diffusion.ipynb)
+
+To finetune:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harmonai-org/sample-generator/blob/main/Finetune_Dance_Diffusion.ipynb)
 
 ## The Dataset
 We worked with two different datasets in the course of our project:

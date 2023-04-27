@@ -54,7 +54,7 @@ Despite the faulty dataset, we continued training. 1000 steps later, the voices 
 
 https://user-images.githubusercontent.com/113027541/233939815-e474c13c-f302-4fb4-8fc1-cae29f821ed5.mp4
 
-Soon after that, we noticed a sudden change of the pattern in the loss graph. Unlike the regular spikes in during the training before, the loss stayed consistently low after the 154'000 step mark (red).
+Soon after that, we noticed a sudden change of the pattern in the loss graph. Unlike the regular spikes in during the training before, the loss stayed consistently low after the 154k step mark (red).
 
 ![run1_a](https://user-images.githubusercontent.com/113027541/234811345-493e19d2-4561-40d8-8025-7dab1b921d69.png)
 

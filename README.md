@@ -3,7 +3,7 @@ AI-generated LoFi by Hannes Salzmann and Manuel Ineichen
 
 This project is an AI-generated hommage to the musical genre of Lofi. On this website, the user is invited to "relax" to soothing Lofi-beats, produced by an audio Diffusion model.
 
-[necri.github.io/](https://necri.github.io/)
+[necri.github.io](https://necri.github.io/)
 
 For the visuals, we used RunwayML's Gen-1 video diffusion model to generate a futuristic version of the iconic Study Girl animation. The original video can be seen [here](https://www.youtube.com/watch?v=jfKfPfyJRdk).
 

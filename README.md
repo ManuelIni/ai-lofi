@@ -10,7 +10,7 @@ For the visuals, we used RunwayML's Gen-1 video diffusion model to generate a fu
 This project was made during the module COMPP by Guillaume Massol at Lucern University of Applied Sciences and Arts.
 
 ## The Model
-We used HarmonAI's Dance Diffusion model, specifically the pretrained checkpoints "maestro-150k" and "jmann-small-190k".
+We used [HarmonAI's](https://www.harmonai.org) Dance Diffusion model, specifically the pretrained checkpoints "maestro-150k" and "jmann-small-190k".
 
 ## The Notebooks
 There are two colab notebooks by HarmonAI for their Diffusion model, one to generate audio, and another one to finetune their models.
@@ -80,3 +80,9 @@ Shortly after 6000 steps, the generated audio didn't seem to get any better. The
 ![run2_a](https://user-images.githubusercontent.com/113027541/233996955-dc236b99-f0fc-4048-ba79-e4d3a56fa9c0.png)
 
 After a few unsuccessful retries from older checkpoints, we decided to stop training. Even though a few runs managed to keep the loss low (green), the output did not sound much better than at 6000 steps.
+
+# Conclusion
+
+The final output of our model only loosely resembles Lofi. While the audio imitates certain characteristics of the genre, like the prominent kick drum and the calm, low-fidelity feel, the rhythmic and melodic structure has a long way to go. This puts into perspective how huge the datasets and training time of more advanced audio diffusion models like [Google's MusicLM](https://google-research.github.io/seanet/musiclm/examples/) must be. The process of training our model was a great learning opportunity. We realised the importance of data selection and preprocessing, which was the main reason why the second training run produced much better results than the first - all according to the computer science saying "garbage in, garbage out".
+
+Nonetheless we are happy with the results, as we got a good look at challenges of collecting a dataset and fine-tuning a diffusion model. We also discovered some very useful tools like [Weights and Biases](https://wandb.ai/) to track the progress of our training runs,

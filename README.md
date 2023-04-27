@@ -54,9 +54,16 @@ Despite the faulty dataset, we continued training. 1000 steps later, the voices 
 
 https://user-images.githubusercontent.com/113027541/233939815-e474c13c-f302-4fb4-8fc1-cae29f821ed5.mp4
 
-After 5400 steps in total, we decided to abort training on this dataset. The stylistic inconsistency of the used playlist lead to incoherent outputs that seemed to far away from actual Lofi.
+Soon after that, we noticed a sudden change of the pattern in the loss graph. Unlike the regular spikes in during the training before, the loss stayed consistently low after the 154'000 step mark (red).
+
+![run1_a](https://user-images.githubusercontent.com/113027541/234811345-493e19d2-4561-40d8-8025-7dab1b921d69.png)
+
+The quality of the generated audio reflected that change, so we decided to reset to a checkpoint before 154'000 steps. Even though we managed to bring back the familiar loss pattern, the generated samples still didn't seem to improve.
 
 https://user-images.githubusercontent.com/113027541/233952930-d2ae7ff4-7954-4fd4-8960-90a07a093c89.mp4
+
+This led us to stop training on this dataset. The stylistic inconsistency of the used playlist lead to incoherent outputs that were to far away from actual Lofi.
+
 
 ## The second run
 The second run, using the playlist by "chilli music", started from the checkpoint "jmann-small-190k". This dataset is smaller than the first, consisting of roughly 12hrs of Lofi. The training ran for roughly 8500 steps, producing much better results than the first run. There are two main reasons for this:
@@ -86,3 +93,4 @@ After a few unsuccessful retries from older checkpoints, we decided to stop trai
 The final output of our model only loosely resembles Lofi. While the audio imitates certain characteristics of the genre, like the prominent kick drum and the calm, low-fidelity feel, the rhythmic and melodic structure has a long way to go. This puts into perspective how huge the datasets and training time of more advanced audio diffusion models like [Google's MusicLM](https://google-research.github.io/seanet/musiclm/examples/) must be. The process of training our model was a great learning opportunity. We realised the importance of data selection and preprocessing, which was the main reason why the second training run produced much better results than the first - all according to the computer science saying "garbage in, garbage out".
 
 Nonetheless we are happy with the results, as we got a good look at challenges of collecting a dataset and fine-tuning a diffusion model. We also discovered [Weights and Biases](https://wandb.ai/) as a very useful tool to track the progress of our training runs. 
+
